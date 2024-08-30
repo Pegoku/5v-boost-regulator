@@ -2463,7 +2463,8 @@
 			(pintype "unspecified")
 			(uuid "726a0f2a-4637-4304-9a15-0275e70190f4")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65.wrl"
+		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65.step"
+			(hide yes)
 			(offset
 				(xyz -914.07 688.6 -0)
 			)
@@ -2472,6 +2473,17 @@
 			)
 			(rotate
 				(xyz 0 0 270)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-16_3.9x4.9mm_P0.635mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
 			)
 		)
 	)
