@@ -2951,7 +2951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "220uF"
 			(at 195.58 61.3409 0)
 			(effects
 				(font
@@ -2960,7 +2960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 192.7352 64.77 0)
 			(effects
 				(font
@@ -2979,6 +2979,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 191.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2887273"
 			(at 191.77 60.96 0)
 			(effects
 				(font
@@ -3048,6 +3057,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2921230"
+			(at 76.2 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2uF"
 			(at 184.15 62.2299 0)
 			(effects
 				(font
