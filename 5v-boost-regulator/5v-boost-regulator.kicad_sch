@@ -1550,6 +1550,12 @@
 		(uuid "9bcd4224-c41d-450f-804b-9093699ed106")
 	)
 	(junction
+		(at 207.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8c78dc4-9c6a-4d9c-a23f-f63974302413")
+	)
+	(junction
 		(at 82.55 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1586,6 +1592,16 @@
 			(type default)
 		)
 		(uuid "05f4c11b-c5ec-478d-87fa-4d42e8541ff0")
+	)
+	(wire
+		(pts
+			(xy 207.01 81.28) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bda3d21-f808-4094-a04e-e664b917647b")
 	)
 	(wire
 		(pts
@@ -1686,6 +1702,16 @@
 			(type default)
 		)
 		(uuid "48fa0724-74a6-469f-bfb7-729175af436b")
+	)
+	(wire
+		(pts
+			(xy 222.25 69.85) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff205c1-221f-430a-984f-d99a7f61ade7")
 	)
 	(wire
 		(pts
@@ -1989,6 +2015,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 57.15) (xy 207.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d6df19-b8d1-4501-a7b7-d6fd33735a17")
+	)
+	(wire
+		(pts
 			(xy 82.55 64.77) (xy 111.76 64.77)
 		)
 		(stroke
@@ -2026,6 +2062,16 @@
 			(type default)
 		)
 		(uuid "fac3a480-3f39-4c4c-ad1d-e53f7d6c7988")
+	)
+	(wire
+		(pts
+			(xy 222.25 72.39) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb24365d-33c4-4add-9c95-5b47ec5daa6f")
 	)
 	(wire
 		(pts
@@ -2252,6 +2298,76 @@
 			(project "5v-boost-regulator"
 				(path "/0c6e4b34-a633-48f7-bd69-b032874f9ac7"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 227.33 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b76f3a-719b-4ea6-bb1a-11c935e94760")
+		(property "Reference" "J2"
+			(at 229.87 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 229.87 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 227.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c166fe6-66e4-4aa1-ac9b-e7688ae2ee8d")
+		)
+		(pin "2"
+			(uuid "a289a7a0-58c4-4640-bdc2-d53f4b7041c9")
+		)
+		(instances
+			(project "5v-boost-regulator"
+				(path "/0c6e4b34-a633-48f7-bd69-b032874f9ac7"
+					(reference "J2")
 					(unit 1)
 				)
 			)
